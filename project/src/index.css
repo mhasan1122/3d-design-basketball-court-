@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-x-60 {
+  transform: rotateX(60deg);
+}
+
+.translate-z-16 {
+  transform: translateZ(16px);
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
